@@ -1,10 +1,16 @@
+body {
+    
+    
+background-attachment: fixed;
+}
 
 div{
 	background-color:#ddd;
 }
 
-a, p, h3 {
+a, p, h3, h4 {
 	font-family: calibri;
+	
 }
 
 a{
@@ -12,7 +18,9 @@ a{
 }
 
 
-
+header , nav {
+	background-attachment: fixed;
+}
 
 
 .stranica{
@@ -32,13 +40,17 @@ a{
 	margin-bottom:10px;
 	margin-top:5px;
 	max-width:1200px;
-	height:1675px;
-	background-color:#ddd;
+	background-color:#e1e1e1;
 	padding:10px;
-	
+	text-align:center;
+	font-family: calibri;
 }
 
-.stranica img{
+.stranica2 h1{
+	color: #C10808;
+}
+
+.stranica img , .stranica2 img{
 	border-radius:10px;
 	border: 2px solid;
 	border-color: black;
@@ -67,7 +79,7 @@ nav ul{
 nav a{
 	text-decoration:none;
 	text-align:center;
-	display: block;
+	display: inline-block;
 	padding-bottom:15px;
 	padding-left:40px;
 	padding-right:40px;
@@ -82,23 +94,26 @@ a:hover{
 	color: #C10808;
 	
 }
-#prijava {
+form {
 	border: 2px solid black;
 	border-radius:5px;
+	padding-left:10px;
+
+	
 }
 
 input{
 	border: 2px solid;
 	border-color: #C10808;
-	margin-left:20px;
+	padding:5px;
 	border-radius:5px;
 }
 
 
 
 button{
-	margin-left: 20px;
-	margin-top:10px;
+	
+	margin-top:5px;
 	border-color:black;
 	margin-bottom:10px;
 	border-radius:5px;
@@ -114,6 +129,11 @@ button{
 	
 	
 }
+
+#levi h3 {
+	color:#C10808;
+}
+
 #desni{
 	
 	padding:5px;
@@ -172,7 +192,7 @@ button{
 
 #sponzori li{
 	
-	padding:28px;
+	padding:25px;
 	list-style: none;
 	
 	
